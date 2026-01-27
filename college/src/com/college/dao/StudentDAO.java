@@ -29,10 +29,9 @@ public class StudentDAO {
 
         while (rs.next()) {
             System.out.println(
-                rs.getInt("id") + " " +
-                rs.getString("name") + " " +
-                rs.getInt("age") + " " +
-                rs.getString("branch")
+                rs.getString("name ") + " " +
+                rs.getInt("age ") + " " +
+                rs.getString("branch ")
             );
         }
         con.close();
