@@ -18,7 +18,7 @@ An ATM system built with Java that simulates basic banking operations with MySQL
 
 ```sql
 INSERT INTO accounts (account_number, pin, balance) 
-VALUES ('1234567890', '1234', 5000.00);
+VALUES ('123456789', '1234', 95000.00);
 ```
 
 4. **Compile the project**:
